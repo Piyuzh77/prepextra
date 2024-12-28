@@ -42,7 +42,7 @@ const TableContent = ({ data, difficulty, setDifficulty, company, setCompany}) =
                 <tr key={k} className="hover:bg-[#112] hover:text-siteYellow border-b-2">
                   <td className="px-4 py-2">{row.problemNumber}</td>
                   <td className="px-4 py-2">
-                    <a href={row.url} className="text-siteLavender hover:underline">
+                    <a href={row.url} target="_blank" className="text-siteLavender hover:underline">
                       {row.name}
                     </a>
                   </td>
